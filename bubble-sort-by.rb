@@ -18,3 +18,5 @@ test = ["hi","hello","hey"]
 result = bubble_sort_by(test) do |left,right|	
 	right.length - left.length 
 end
+
+p result
